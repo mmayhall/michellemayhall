@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="mystyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="topbutton.js"></script>
-
-	</head>
+	<script src="Scripts/swfobject_modified.js"></script>
+</head>
 <body>
 	
 	<div class="page-wrapper">
@@ -59,7 +59,7 @@
 				<div class="title-wrap">
 					<h1>The Game of Chess</h1>
 					<hr>
-					<h2>Packaging Design</h2>
+					<h2>Packaging &amp; Instructional Book Design</h2>
 				</div>
 				<div class="scroll"><a href="#section2">
 					&#x2913;
@@ -81,41 +81,65 @@
 			
 			<article class="what-dark-purple">
 				<h3>WHAT</h3><hr><br>
-				<p1>Board game packaging design for The Game of Chess</p1>
+				<p1>Board game packaging and instructional book design for The Game of Chess<br><br>
+				Download the pdf <a href="img/design/chess/game_of_chess_book.pdf" download>here</a></p1>
 			</article>
+
+<div class="swf">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="96%" id="FlashID" title="chess_book">
+              <param name="movie" value="chess_book.swf">
+              <param name="quality" value="high">
+              <param name="wmode" value="opaque">
+              <param name="swfversion" value="10.1.0.0">
+              <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+              <param name="expressinstall" value="Scripts/expressInstall.swf">
+              <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+              <!--[if !IE]>-->
+              <object type="application/x-shockwave-flash" data="chess_book.swf" width="972" height="477">
+                <!--<![endif]-->
+                <param name="quality" value="high">
+                <param name="wmode" value="opaque">
+                <param name="swfversion" value="10.1.0.0">
+                <param name="expressinstall" value="Scripts/expressInstall.swf">
+                <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                <div>
+                  <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                  <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                </div>
+                <!--[if !IE]>-->
+              </object>
+              <!--<![endif]-->
+          </object>
+	<br><br><p1>Click above and use arrow keys, or drag across pages with your mouse to navigate through the book. </p1>
+			</div>
 			
-		<div class="image-grouping">
-			<section class="single-image">
-				<div class="img-zoom">
-				<img src="img/design/chess/chess_01.jpg" alt="" width="91.5%"> <br><br><br><br>
-					<p2></p2> </div>
-				</section>
-			<section class="images">
-				<div class="img1">
-				<div class="img-zoom">
-					<img src="img/design/chess/chess-10.jpg" alt="" width="90%"> <br>
-					<p2></p2> </div>
-				</div>
-				<div class="img1">
-				<div class="img-zoom">
-					<img src="img/design/chess/chess-11.jpg" alt="" width="90%"> <br>
-					<p2></p2> </div>
-				</div>
+<div class="image-grouping">
+		<section class="single-image">
+			<div class="img-zoom">
+			  <img src="img/design/chess/chess_01.jpg" alt="" width="91.5%"> <br>
+				<p2></p2> </div>
 			</section>
-		</div>
+	  </div>
 			
 			<article class="why-dark-purple">
 				<h3>WHY</h3><hr><br>
 				<p1>Inspired by Russian constructivism, this design is intended to convey the mental intensity of chess through sharp geometry, high contrast, saturated color and intimidating angles.</p1></article>
 
+<div class="image-grouping">
+	<section class="images">
+			<div class="img1">
+			  <div class="img-zoom">
+				  <img src="img/design/chess/chess-10.jpg" alt="" width="90%"> <br>
+			    <p2></p2> </div>
+		    </div>
+			<div class="img1">
+			  <div class="img-zoom">
+				  <img src="img/design/chess/chess-11.jpg" alt="" width="90%"> <br>
+			    <p2></p2> </div>
+		    </div>
+	    </section>
+			</div>	
 			
-		<div class="image-grouping">
-				<section class="single-image">
-				<div class="img-zoom">
-				<img src="img/design/chess/chess_04.jpg" alt="" width="91.5%"> <br>
-					<p2></p2> </div>
-				</section>
-		</div>	
 			
 			<article class="how-dark-purple">
 				<h3>HOW</h3><hr><br>
@@ -123,6 +147,11 @@
 					Adobe InDesign</p1></article>
 		<div class="image-grouping">
 				<section class="single-image">
+				<div class="img-zoom">
+				<img src="img/design/chess/chess_04.jpg" alt="" width="91.5%"> <br>
+					<p2></p2> </div>
+				</section>
+			<section class="single-image">
 					<div class="img-zoom">
 					<img src="img/design/chess/chess_03.jpg" alt="" width="90%"> <br><br><br><br><br>
 					<p2></p2> </div>
@@ -130,10 +159,13 @@
 			</div>
 		</main>
 		<footer>
-			<p>&#169; Michelle Mayhall 2019</p>
+		  <p>&#169; Michelle Mayhall 2019</p>
 			</footer>
 	</div>
 <script src="myScript.js"></script>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
 </body>
 	
 </html>
