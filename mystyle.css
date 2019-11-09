@@ -436,6 +436,18 @@ nav ul li a {
 	padding: 0;
 	position: relative;}
 
+.banner-aurec {
+	background-image: url("img/banners/aurec_banner_mobile.jpg");
+	height: 520px;
+    overflow: hidden;
+    width: 100%;
+    background-size: 115%;
+    background-repeat: no-repeat;
+	align-content: center;
+    margin: 0;
+	padding: 0;
+	position: relative;}
+
 .banner-chess {
 	background-image: url("img/banners/chess-banner_mobile.jpg");
 	height: 520px;
@@ -450,6 +462,18 @@ nav ul li a {
 
 .banner-cookbook {
 	background-image: url("img/banners/cookbook_banner_mobile.jpg");
+	height: 520px;
+    overflow: hidden;
+    width: 100%;
+    background-size: 115%;
+    background-repeat: no-repeat;
+	align-content: center;
+    margin: 0;
+	padding: 0;
+	position: relative;}
+
+.banner-disney {
+	background-image: url("img/banners/disney-banner_mobile.jpg");
 	height: 520px;
     overflow: hidden;
     width: 100%;
@@ -535,6 +559,18 @@ nav ul li a {
 
 .banner-plantslaughter {
 	background-image: url("img/banners/plantslaughter_banner_mobile.jpg");
+	height: 520px;
+    overflow: hidden;
+    width: 100%;
+    background-size: 115%;
+    background-repeat: no-repeat;
+	align-content: center;
+    margin: 0;
+	padding: 0;
+	position: relative;}
+
+.banner-saurus {
+	background-image: url("img/banners/saurus_banner_mobile.jpg");
 	height: 520px;
     overflow: hidden;
     width: 100%;
@@ -899,6 +935,11 @@ nav ul li a {
 	font-size: 1.05em;
 	font-weight: normal;}
 
+.what-dark-green p1 a{
+	font-family: 'Lato', sans-serif;
+	color: #AEC894;
+}
+
 footer {
 	background-color: #9BB183;
 	background-size: cover;
@@ -1140,6 +1181,11 @@ header {
 	height: 768px;
     background-size: 105%;}	
 	
+.banner-apl {
+	background-image: url("img/banners/aurec_banner_tablet.jpg");
+	height: 768px;
+    background-size: 105%;}	
+	
 .banner-chess {
 	background-image: url("img/banners/chess-banner_tablet.jpg");
 	height: 768px;
@@ -1149,6 +1195,11 @@ header {
 	background-image: url("img/banners/cookbook_banner_mobile.jpg");
 	height: 768px;
     background-size: 105%;}	
+	
+.banner-disney {
+	background-image: url("img/banners/disney-banner_tablet.jpg");
+	height: 768px;
+    background-size: 105%;}		
 	
 .banner-foxygen {
 	background-image: url("img/banners/foxygen_banner_tablet.jpg");
@@ -1182,6 +1233,11 @@ header {
 	
 .banner-plantslaughter {
 	background-image: url("img/banners/plantslaughter_banner_tablet.jpg");
+	height: 768px;
+    background-size: 105%;}	
+	
+.banner-saurus {
+	background-image: url("img/banners/saurus_banner_tablet.jpg");
 	height: 768px;
     background-size: 105%;}	
 	
@@ -1271,7 +1327,7 @@ header {
 	
 .image-grouping {
 	overflow-x: hidden;
-	margin: 3%;
+	margin: 1% 1% 1% 2.5%;
 	padding: 3%;
 	width: 90%;
 	}
@@ -1634,6 +1690,11 @@ header {
 	height: 900px;
     background-size: 115%;}	
 	
+.banner-aurec{
+	background-image: url("img/banners/aurec_banner.jpg");
+	height: 900px;
+    background-size: 115%;}	
+	
 .banner-chess{
 	background-image: url("img/banners/chess-banner.jpg");
 	height: 900px;
@@ -1641,6 +1702,11 @@ header {
 	
 .banner-cookbook{
 	background-image: url("img/banners/cookbook_banner.jpg");
+	height: 900px;
+    background-size: 115%;}	
+	
+.banner-disney{
+	background-image: url("img/banners/disney-banner.jpg");
 	height: 900px;
     background-size: 115%;}	
 
@@ -1679,6 +1745,11 @@ header {
 	background-image: url("img/banners/plantslaughter_banner.jpg");
 	height: 900px;
     background-size: 115%;}	
+	
+.banner-saurus {
+	background-image: url("img/banners/saurus_banner.jpg");
+	height: 900px;
+    background-size: 115%;}
 	
 .banner-seasonal-motion-graphics {
 	background-image: url("img/banners/earthday-banner.jpg");
@@ -1768,9 +1839,10 @@ header {
 	
 .image-grouping {
 	overflow-x: hidden;
-	margin: 5%;
-	padding: 5%;
+	margin: 1% 1% 1% 5%;
+	padding: 3% 3% 3% 5%;
 	width: 75%;
+	float: center;
 	}	
 	
 .img-zoom {
@@ -1816,6 +1888,8 @@ transform: scale(1);
 	font-size: .9em;
 	text-align: center;
 	color: #7C7C7C;
+	margin: 0;
+	padding: 0;
 	}	
 	
 .single-image {
@@ -1952,3 +2026,9 @@ transform: scale(1);
 	}	
 	
 }
+
+
+
+
+
+	
