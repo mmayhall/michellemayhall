@@ -484,6 +484,19 @@ nav ul li a {
 	padding: 0;
 	position: relative;}
 
+.banner-eroc {
+	background-image: url("img/banners/eroc_banner_mobile.jpg");
+	height: 520px;
+    overflow: hidden;
+    width: 100%;
+    background-size: 115%;
+    background-repeat: no-repeat;
+	align-content: center;
+    margin: 0;
+	padding: 0;
+	position: relative;}
+
+
 .banner-foxygen {
 	background-image: url("img/banners/foxygen_banner_mobile.jpg");
 	height: 520px;
@@ -1201,6 +1214,11 @@ header {
 	height: 768px;
     background-size: 105%;}		
 	
+.banner-eroc {
+	background-image: url("img/banners/eroc_banner_tablet.jpg");
+	height: 768px;
+    background-size: 105%;}		
+		
 .banner-foxygen {
 	background-image: url("img/banners/foxygen_banner_tablet.jpg");
 	height: 768px;
@@ -1707,6 +1725,11 @@ header {
 	
 .banner-disney{
 	background-image: url("img/banners/disney-banner.jpg");
+	height: 900px;
+    background-size: 115%;}	
+	
+.banner-eroc{
+	background-image: url("img/banners/eroc_banner.jpg");
 	height: 900px;
     background-size: 115%;}	
 
